@@ -1,0 +1,619 @@
+{
+    "passages": [
+      {
+        "text": "It’s been a long day at work, and a stressful drive home. Snow is pouring, and as you drove, the speed made it feel like hyperdrive. Parking your car in the garage, your residence is finally in eyeshot. Stepping out of your car, you decide how to get into your home.\n\n[[Go to Front Door-> Front Door]]\n[[Go to Back Door-> Back Door]]\n[[Stay Outside->Outside ]]",
+        "links": [
+          {
+            "name": "Go to Front Door",
+            "link": " Front Door",
+            "pid": "2"
+          },
+          {
+            "name": "Go to Back Door",
+            "link": " Back Door",
+            "pid": "3"
+          },
+          {
+            "name": "Stay Outside",
+            "link": "Outside ",
+            "pid": "4"
+          }
+        ],
+        "name": "Your Residence",
+        "pid": "1",
+        "position": {
+          "x": "516",
+          "y": "18"
+        }
+      },
+      {
+        "text": "You’re here again. Or, at the very least, facing a familiar doorway. The motion lights turn on as you arrive at the steps, sensitive as always. Greeted by a worn out brass knocker, you take your keys out of your pocket.\n\n[[Open Door->Inside Door]]\n[[Walk Around-> Back Door]]",
+        "links": [
+          {
+            "name": "Open Door",
+            "link": "Inside Door",
+            "pid": "5"
+          },
+          {
+            "name": "Walk Around",
+            "link": " Back Door",
+            "pid": "3"
+          }
+        ],
+        "name": " Front Door",
+        "pid": "2",
+        "position": {
+          "x": "187",
+          "y": "255"
+        }
+      },
+      {
+        "text": "It’s freezing! Why didn’t you use the front door? Trying to find a secret ending? It'll only take you back home.\n\nTake my word for it.\n\n[[Okay->Open outside]]\n[[No!->Outside ]]",
+        "links": [
+          {
+            "name": "Okay",
+            "link": "Open outside",
+            "pid": "8"
+          },
+          {
+            "name": "No!",
+            "link": "Outside ",
+            "pid": "4"
+          }
+        ],
+        "name": " Back Door",
+        "pid": "3",
+        "position": {
+          "x": "657",
+          "y": "278"
+        }
+      },
+      {
+        "text": "Suit yourself. You're outside. It's freezing out here! And it's dark. And the wind is starting to howl.....\n\n[[Next->Outside 2]]",
+        "links": [
+          {
+            "name": "Next",
+            "link": "Outside 2",
+            "pid": "6"
+          }
+        ],
+        "name": "Outside ",
+        "pid": "4",
+        "position": {
+          "x": "976",
+          "y": "78"
+        }
+      },
+      {
+        "text": "You shunt the snow off of your boots, slipping them off and leaving them at the doorway. With socked feet, you make your way into the Living Room. Turning on a lamp, warm light fills the room and bleeds into the kitchen and dining room.\n\n[[Next->from rooms]]\n",
+        "links": [
+          {
+            "name": "Next",
+            "link": "from rooms",
+            "pid": "11"
+          }
+        ],
+        "name": "Inside Door",
+        "pid": "5",
+        "position": {
+          "x": "0",
+          "y": "634"
+        }
+      },
+      {
+        "text": "What did you even want to do Outside? Play in the snow? Catch frostbite? Get abducted? Go back inside.\n\n[[Go back inside->Inside Door]] \n[[No!->Outside 3]]",
+        "links": [
+          {
+            "name": "Go back inside",
+            "link": "Inside Door",
+            "pid": "5"
+          },
+          {
+            "name": "No!",
+            "link": "Outside 3",
+            "pid": "7"
+          }
+        ],
+        "name": "Outside 2",
+        "pid": "6",
+        "position": {
+          "x": "1041",
+          "y": "314"
+        }
+      },
+      {
+        "text": "Go inside.\n\n[[Front Door-> Front Door]] \n[[Back Door-> Back Door]] \n[[I said no!!->ok ok]]",
+        "links": [
+          {
+            "name": "Front Door",
+            "link": " Front Door",
+            "pid": "2"
+          },
+          {
+            "name": "Back Door",
+            "link": " Back Door",
+            "pid": "3"
+          },
+          {
+            "name": "I said no!!",
+            "link": "ok ok",
+            "pid": "10"
+          }
+        ],
+        "name": "Outside 3",
+        "pid": "7",
+        "position": {
+          "x": "1007",
+          "y": "546"
+        }
+      },
+      {
+        "text": "You rattle the stubborn doorknob with a gloved hand. Snow begins to gather in your hair -- open, dangit! You think to yourself. Is it frozen shut? You swear you left it unlocked this morning.\n\n[[Try Again->try again]]\n[[Back to Front Door-> Front Door]] \n[[Give Up->Outside 2]] ",
+        "links": [
+          {
+            "name": "Try Again",
+            "link": "try again",
+            "pid": "9"
+          },
+          {
+            "name": "Back to Front Door",
+            "link": " Front Door",
+            "pid": "2"
+          },
+          {
+            "name": "Give Up",
+            "link": "Outside 2",
+            "pid": "6"
+          }
+        ],
+        "name": "Open outside",
+        "pid": "8",
+        "position": {
+          "x": "369",
+          "y": "477"
+        }
+      },
+      {
+        "text": "Rattling the knob again, you hear the door budge. Pushing the door open, the frigid wind carries both you and the falling snow inside of your residence.\n\n[[Next->Inside Door]] ",
+        "links": [
+          {
+            "name": "Next",
+            "link": "Inside Door",
+            "pid": "5"
+          }
+        ],
+        "name": "try again",
+        "pid": "9",
+        "position": {
+          "x": "453",
+          "y": "689"
+        }
+      },
+      {
+        "text": "A special prize? Maybe you would like a special prize. You know what they say about that one cat. \n\n[[Back Home-> Front Door]] \n[[Next->nerves]]",
+        "links": [
+          {
+            "name": "Back Home",
+            "link": " Front Door",
+            "pid": "2"
+          },
+          {
+            "name": "Next",
+            "link": "nerves",
+            "pid": "17"
+          }
+        ],
+        "name": "ok ok",
+        "pid": "10",
+        "position": {
+          "x": "957",
+          "y": "729"
+        }
+      },
+      {
+        "text": "In your living room, a familiar warmth surrounds you.\n\nYour ever-familiar suede couch and mahogany coffee table sit basking in the warmth of your lamp. Your favorite book sits on the table with a dog-ear on your most recent page. You’ve read it half-a-hundred times, so nearly all the pages are dog-eared. Maybe you should invest in a bookmark? \n\n[[Next->new rooms]]\n[[Stay->books]]",
+        "links": [
+          {
+            "name": "Next",
+            "link": "new rooms",
+            "pid": "12"
+          },
+          {
+            "name": "Stay",
+            "link": "books",
+            "pid": "20"
+          }
+        ],
+        "name": "from rooms",
+        "pid": "11",
+        "position": {
+          "x": "120",
+          "y": "685"
+        }
+      },
+      {
+        "text": " Just ahead lies the Kitchen. Down the hall, your Bedroom calls you after a long day at work.\n \n [[Kitchen->Kitchen]]\n [[Bedroom->Bedroom]]\n [[Back->from rooms]] ",
+        "links": [
+          {
+            "name": "Kitchen",
+            "link": "Kitchen",
+            "pid": "13"
+          },
+          {
+            "name": "Bedroom",
+            "link": "Bedroom",
+            "pid": "14"
+          },
+          {
+            "name": "Back",
+            "link": "from rooms",
+            "pid": "11"
+          }
+        ],
+        "name": "new rooms",
+        "pid": "12",
+        "position": {
+          "x": "191",
+          "y": "952"
+        }
+      },
+      {
+        "text": "Ah, the kitchen. You love a warm mug of chamomile before bed. Or maybe you dont. Would you like to make tea tonight?\n\n[[Yes, please->tea1]]\n[[No, to bed->Bedroom]] ",
+        "links": [
+          {
+            "name": "Yes, please",
+            "link": "tea1",
+            "pid": "16"
+          },
+          {
+            "name": "No, to bed",
+            "link": "Bedroom",
+            "pid": "14"
+          }
+        ],
+        "name": "Kitchen",
+        "pid": "13",
+        "position": {
+          "x": "173",
+          "y": "1088"
+        }
+      },
+      {
+        "text": "Finally. You're exhausted. You feel even more at peace now in pajamas. Ready for bed?\n\n[[Goodnight->The End]]\n[[Not yet->new rooms]] ",
+        "links": [
+          {
+            "name": "Goodnight",
+            "link": "The End",
+            "pid": "15"
+          },
+          {
+            "name": "Not yet",
+            "link": "new rooms",
+            "pid": "12"
+          }
+        ],
+        "name": "Bedroom",
+        "pid": "14",
+        "position": {
+          "x": "360",
+          "y": "1043"
+        }
+      },
+      {
+        "text": "Goodnight :)",
+        "name": "The End",
+        "pid": "15",
+        "position": {
+          "x": "343",
+          "y": "1210"
+        }
+      },
+      {
+        "text": "mmmmm....That hits the spot. Putting your cup in the sink, you feel even warmer. Something about a hot bevarage as the snow falls always fixes your mood. Ready for bed?\n\n[[Yes->Bedroom]] \n[[Not yet->new rooms]] ",
+        "links": [
+          {
+            "name": "Yes",
+            "link": "Bedroom",
+            "pid": "14"
+          },
+          {
+            "name": "Not yet",
+            "link": "new rooms",
+            "pid": "12"
+          }
+        ],
+        "name": "tea1",
+        "pid": "16",
+        "position": {
+          "x": "213",
+          "y": "1255"
+        }
+      },
+      {
+        "text": "Curiosity may have killed it, but satisfaction brought it back, didn't it? I'll tell you what. Maybe there is a little something for you. \n\n[[Yes!!->Thank you]]\n[[Back Home->Inside Door]]",
+        "links": [
+          {
+            "name": "Yes!!",
+            "link": "Thank you",
+            "pid": "18"
+          },
+          {
+            "name": "Back Home",
+            "link": "Inside Door",
+            "pid": "5"
+          }
+        ],
+        "name": "nerves",
+        "pid": "17",
+        "position": {
+          "x": "914",
+          "y": "917"
+        }
+      },
+      {
+        "text": "You're a stubborn one! A resilient one. And for that, you've earned it. Here's a gift for you.\n\nThe key to the chest that you misplaced ages ago. Let's go back inside now.\n\n[[Thank you!->front door alt]]",
+        "links": [
+          {
+            "name": "Thank you!",
+            "link": "front door alt",
+            "pid": "19"
+          }
+        ],
+        "name": "Thank you",
+        "pid": "18",
+        "position": {
+          "x": "804",
+          "y": "1047"
+        }
+      },
+      {
+        "text": "You’re here again. Or, at the very least, facing a familiar doorway. The motion lights turn on as you arrive at the steps, sensitive as always. Greeted by a worn out brass knocker, you take your keys out of your pocket.\n\n[[Open Door->Inside Door Alt]]\n",
+        "links": [
+          {
+            "name": "Open Door",
+            "link": "Inside Door Alt",
+            "pid": "23"
+          }
+        ],
+        "name": "front door alt",
+        "pid": "19",
+        "position": {
+          "x": "871",
+          "y": "1218"
+        }
+      },
+      {
+        "text": "You stick around in the living room. Another chapter before bed couldn't hurt, and you love this book. It's been your favorite book since high school. Running your fingers down the pages, you feel the energy of memories. Your first all-nighter, running amuck at your best friend's house, getting your license, having popcorn spilled on you at that one football game that you went to just to support your friend in the marching band. \n\nRead another chapter?\n\n[[Yes->Another]]\n[[No->new rooms pre]]",
+        "links": [
+          {
+            "name": "Yes",
+            "link": "Another",
+            "pid": "21"
+          },
+          {
+            "name": "No",
+            "link": "new rooms pre",
+            "pid": "22"
+          }
+        ],
+        "name": "books",
+        "pid": "20",
+        "position": {
+          "x": "120",
+          "y": "835"
+        }
+      },
+      {
+        "text": "You take a seat on the couch and open to your most recent dog ear. Familiar passages are annotated so thoroughly that you can barely see the original text. You don't need to see the text to know what's happening on page 74, but it would help. You consider buying a new copy, and storing away this copy in a memory box.\n\nYou'll contemplate ordering a new copy in the morning.\n\n[[Next->new rooms pre]] ",
+        "links": [
+          {
+            "name": "Next",
+            "link": "new rooms pre",
+            "pid": "22"
+          }
+        ],
+        "name": "Another",
+        "pid": "21",
+        "position": {
+          "x": "45",
+          "y": "955"
+        }
+      },
+      {
+        "text": "You put down your task, and proceed to the hallway.\n\n[[Continue->new rooms]] ",
+        "links": [
+          {
+            "name": "Continue",
+            "link": "new rooms",
+            "pid": "12"
+          }
+        ],
+        "name": "new rooms pre",
+        "pid": "22",
+        "position": {
+          "x": "348",
+          "y": "865"
+        }
+      },
+      {
+        "text": "You shunt the snow off of your boots, slipping them off and leaving them at the doorway. With socked feet, you make your way into the Living Room. Turning on a lamp, warm light fills the room and bleeds into the kitchen and dining room.\n\n[[Next->from rooms alt]]",
+        "links": [
+          {
+            "name": "Next",
+            "link": "from rooms alt",
+            "pid": "24"
+          }
+        ],
+        "name": "Inside Door Alt",
+        "pid": "23",
+        "position": {
+          "x": "796",
+          "y": "1368"
+        }
+      },
+      {
+        "text": "In your living room, a familiar warmth surrounds you.\n\nYour ever-familiar suede couch and mahogany coffee table sit basking in the warmth of your lamp. Your favorite book sits on the table with a dog-ear on your most recent page. You’ve read it half-a-hundred times, so nearly all the pages are dog-eared. Maybe you should invest in a bookmark? \n\nThere's no time to read, now. You'd like to find the lock to this key you've been blessed with.\n\n[[Next->new rooms alt]]",
+        "links": [
+          {
+            "name": "Next",
+            "link": "new rooms alt",
+            "pid": "25"
+          }
+        ],
+        "name": "from rooms alt",
+        "pid": "24",
+        "position": {
+          "x": "766",
+          "y": "1845"
+        }
+      },
+      {
+        "text": "Down the hall, your Bedroom calls you after a long day at work.\n\n [[Bedroom->Bedroom alt]]",
+        "links": [
+          {
+            "name": "Bedroom",
+            "link": "Bedroom alt",
+            "pid": "26"
+          }
+        ],
+        "name": "new rooms alt",
+        "pid": "25",
+        "position": {
+          "x": "806",
+          "y": "1680"
+        }
+      },
+      {
+        "text": "Finally. You're exhausted. You feel even more at peace now in pajamas. Ready for bed?\n\n[[Goodnight->The End]]\n[[Not yet->key box]] ",
+        "links": [
+          {
+            "name": "Goodnight",
+            "link": "The End",
+            "pid": "15"
+          },
+          {
+            "name": "Not yet",
+            "link": "key box",
+            "pid": "27"
+          }
+        ],
+        "name": "Bedroom alt",
+        "pid": "26",
+        "position": {
+          "x": "882",
+          "y": "1790"
+        }
+      },
+      {
+        "text": "That's right! How could we forget. The key to the box, correct? If not, disregard. Maybe you would like some tea before bed? Once you proceed, you might misplace the key again. Be warned.\n\n[[Tea does sound good->tea1]] \n[[Find the box->box]]",
+        "links": [
+          {
+            "name": "Tea does sound good",
+            "link": "tea1",
+            "pid": "16"
+          },
+          {
+            "name": "Find the box",
+            "link": "box",
+            "pid": "28"
+          }
+        ],
+        "name": "key box",
+        "pid": "27",
+        "position": {
+          "x": "871",
+          "y": "1968"
+        }
+      },
+      {
+        "text": "Finally. After trial, error, effort, and sneaking outside rather than approaching the front door. You haven't thought about this box since you moved in. It's somewhat of a time capsule. Maybe it's a twenty-dollar bill? That seems like something you'd put in a craft chest from the art supply store. Putting the key into the hole, you turn it until you feel a\n\n*Click*\n\n[[Open the chest->box2]]",
+        "links": [
+          {
+            "name": "Open the chest",
+            "link": "box2",
+            "pid": "29"
+          }
+        ],
+        "name": "box",
+        "pid": "28",
+        "position": {
+          "x": "871",
+          "y": "2118"
+        }
+      },
+      {
+        "text": "Opening the box with much tension, you await the surprise within. \n\n\n[[Next->box3]]",
+        "links": [
+          {
+            "name": "Next",
+            "link": "box3",
+            "pid": "30"
+          }
+        ],
+        "name": "box2",
+        "pid": "29",
+        "position": {
+          "x": "871",
+          "y": "2268"
+        }
+      },
+      {
+        "text": "...\n\n[[...->new]]\n",
+        "links": [
+          {
+            "name": "...",
+            "link": "new",
+            "pid": "31"
+          }
+        ],
+        "name": "box3",
+        "pid": "30",
+        "position": {
+          "x": "871",
+          "y": "2418"
+        }
+      },
+      {
+        "text": "...well...\n\n[[...->new2]]",
+        "links": [
+          {
+            "name": "...",
+            "link": "new2",
+            "pid": "32"
+          }
+        ],
+        "name": "new",
+        "pid": "31",
+        "position": {
+          "x": "871",
+          "y": "2568"
+        }
+      },
+      {
+        "text": "It's a bookmark. For that book on your coffee table. The one full of dog-eared pages.\n\nThis does mean that you don't need to invest in one, considering that a smarter, maybe even wiser, past-you has saved you the trouble.\n\nAfter all of this, are you ready for bed?\n\n[[Yes, please->The End]] \n[[No, I'd like to explore->new rooms]] ",
+        "links": [
+          {
+            "name": "Yes, please",
+            "link": "The End",
+            "pid": "15"
+          },
+          {
+            "name": "No, I'd like to explore",
+            "link": "new rooms",
+            "pid": "12"
+          }
+        ],
+        "name": "new2",
+        "pid": "32",
+        "position": {
+          "x": "871",
+          "y": "2718"
+        }
+      }
+    ],
+    "name": "TwineExercise_01c",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.11",
+    "ifid": "4DF00CB4-211D-4115-878A-ED62E8E41921"
+  }
